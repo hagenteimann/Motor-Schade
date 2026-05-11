@@ -880,30 +880,25 @@ section {
 /* ---- DEMO BADGE ---- */
 .demo-badge {
   position: fixed;
-  bottom: 12px;
-  left: 16px;
+  bottom: 4px;
+  left: 6px;
   z-index: 9999;
-  font-size: 0.65rem;
-  color: rgba(255, 255, 255, 0.3);
+  font-size: 0.5rem;
+  color: rgba(255, 255, 255, 0.25);
   font-family: var(--font-body);
   letter-spacing: 0.5px;
   pointer-events: none;
-  animation: slideUpFade 1.5s ease forwards;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+  text-transform: uppercase;
 }
 
 .demo-badge strong {
   font-weight: 600;
-  color: rgba(255, 255, 255, 0.5);
-}
-
-@keyframes slideUpFade {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  color: rgba(255, 255, 255, 0.3);
 }
 
 @media (max-width: 768px) {
   .demo-badge {
-    bottom: 80px; /* Above Calendly mobile widget */
+    bottom: 4px;
+    left: 4px;
   }
 }
