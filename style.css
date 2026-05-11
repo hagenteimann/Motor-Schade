@@ -876,3 +876,49 @@ section {
 .footer-legal { display: flex; gap: var(--space-400); }
 .footer-legal a { color: var(--color-neutral-400); transition: color 0.3s; }
 .footer-legal a:hover { color: white; }
+
+/* ---- DEMO BADGE ---- */
+.demo-badge {
+  position: fixed;
+  bottom: var(--space-400);
+  left: var(--space-400);
+  background: rgba(10, 10, 10, 0.9);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--color-primary-300);
+  border-left: 4px solid var(--color-primary-300);
+  border-radius: 4px;
+  padding: var(--space-300);
+  z-index: 9999;
+  max-width: 320px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  animation: slideUpFade 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.demo-badge strong {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  color: white;
+  margin-bottom: var(--space-100);
+}
+
+.demo-badge p {
+  font-size: 0.8rem;
+  color: var(--color-neutral-300);
+  line-height: 1.4;
+  margin: 0;
+}
+
+@keyframes slideUpFade {
+  0% { transform: translateY(20px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+@media (max-width: 768px) {
+  .demo-badge {
+    bottom: 80px; /* Above Calendly mobile widget */
+    left: var(--space-300);
+    max-width: 280px;
+  }
+}
