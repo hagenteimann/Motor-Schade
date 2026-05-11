@@ -1,0 +1,109 @@
+- generic [ref=e3]:
+  - region "top of page"
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - generic [ref=e23]:
+        - generic:
+          - generic:
+            - paragraph [ref=e27]:
+              - link "Motor-Schade" [ref=e30] [cursor=pointer]:
+                - /url: https://www.motor-schade.de
+            - paragraph [ref=e31]: Motorrad Werkstatt
+    - main [ref=e50]:
+      - generic [ref=e55]:
+        - generic:
+          - generic:
+            - generic:
+              - generic [ref=e61]:
+                - generic:
+                  - generic:
+                    - img "Motorschade Logo 4K.png" [ref=e67]
+                    - heading "Willkommen bei Motor-Schade" [level=1] [ref=e68]
+              - 'region "Start: Willkommen"'
+              - generic [ref=e74]:
+                - generic:
+                  - generic:
+                    - generic [ref=e83]:
+                      - generic:
+                        - generic:
+                          - heading "Leistungen" [level=2] [ref=e87]
+                          - paragraph [ref=e88]:
+                            - generic [ref=e89]: Bei Motor-Schade wollen wir Probleme verhindern, bevor sie auftreten. Wir verwenden die neuesten Fahrzeugdiagnosetechnologien und die hochwertigsten Teile für Wartung und Reparaturen.
+                    - generic [ref=e94]:
+                      - img "Seite Rechts.jpg" [ref=e100]
+                      - img "Motorrad-Reifen" [ref=e106]
+                      - img "Air Filter Cleaning" [ref=e112]
+                      - img "Image by Matt Seymour" [ref=e118]
+                    - generic [ref=e123]:
+                      - generic [ref=e124]:
+                        - generic:
+                          - generic:
+                            - heading "Motorrad Service" [level=3] [ref=e128]
+                            - paragraph [ref=e129]: Instandhaltungs- und Jahresservice Arbeiten rund ums Thema Motorrad
+                      - generic [ref=e130]:
+                        - generic:
+                          - generic:
+                            - heading "Reifen Service" [level=3] [ref=e134]
+                            - paragraph [ref=e135]:
+                              - generic [ref=e136]:
+                                - text: Jeder kennt es, die nächste große Tour steht an und gerade jetzt sind die Gummis abgefahren.
+                                - text: Motor-Schade hat gängige Reifen in verschiedenen Größen schnell Verfügbar.
+                      - generic [ref=e137]:
+                        - generic:
+                          - generic:
+                            - heading "Unfall Reparatur" [level=3] [ref=e141]
+                            - paragraph [ref=e142]:
+                              - generic [ref=e143]:
+                                - text: Was man sich als leidenschaftlicher Motorrad-Fahrer nie wünscht, aber gelegentlich passiert.
+                                - text: Bei Motor-Schade kümmern wir uns um Ihr Fahrzeug, sodass Sie schnellstmöglich Ihr Bike wieder auf der Straße haben.
+                      - generic [ref=e144]:
+                        - generic:
+                          - generic:
+                            - heading "Vergaser Revision/Reinigung" [level=3] [ref=e148]
+                            - paragraph [ref=e149]: Gerade bei älteren Motorrädern kommt es gelegentlich vor, das die Vergaser Probleme bereiten. Ob Verschmutzt, Undicht oder falsch eingestellt, wir kümmern uns darum.
+              - 'region "Start: Dienstleistungen"'
+              - generic [ref=e163]:
+                - generic [ref=e164]:
+                  - generic:
+                    - generic:
+                      - heading "Kontakt" [level=2] [ref=e168]
+                      - paragraph [ref=e169]: Terminvereinbarung möglichst per Whatsapp oder Email
+                      - paragraph [ref=e170]: 67149 Meckenheim Hauptstraße 115
+                      - paragraph [ref=e171]:
+                        - link "schade.sascha@yahoo.de" [ref=e173] [cursor=pointer]:
+                          - /url: mailto:schade.sascha@yahoo.de
+                      - paragraph [ref=e174]: "017672739430"
+                - img "Riding through the Fields" [ref=e180]
+              - 'region "Start: Kontakt"'
+              - generic [ref=e204]:
+                - img "Motorcycle Wheel" [ref=e210]
+                - generic [ref=e211]:
+                  - generic:
+                    - generic:
+                      - heading "Öffnungszeiten" [level=2] [ref=e215]
+                      - generic:
+                        - paragraph [ref=e216]
+                        - paragraph [ref=e217]: Mo. 9:00 - 17:00 Uhr
+                        - paragraph [ref=e218]: Sa. 15:00 - 17:00 Uhr
+              - 'region "Start: Öffnungszeiten"'
+              - 'region "Start: Blog-Feed"'
+    - contentinfo [ref=e228]:
+      - generic [ref=e234]:
+        - generic:
+          - generic:
+            - paragraph [ref=e235]: "017672739430"
+            - list "Social-Media-Leiste" [ref=e237]:
+              - listitem [ref=e238]:
+                - link "Facebook" [ref=e239] [cursor=pointer]:
+                  - /url: https://www.facebook.com/wix
+                  - img "Facebook" [ref=e240]
+              - listitem [ref=e241]:
+                - link "Twitter" [ref=e242] [cursor=pointer]:
+                  - /url: https://twitter.com/Wix
+                  - img "Twitter" [ref=e243]
+              - listitem [ref=e244]:
+                - link "LinkedIn" [ref=e245] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/wix-com
+                  - img "LinkedIn" [ref=e246]
+            - paragraph [ref=e247]: ©2021 Motor-Schade. Erstellt mit Wix.com
+  - region "bottom of page"
